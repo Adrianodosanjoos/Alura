@@ -33,8 +33,7 @@ class NegociacaoView {
         <tfoot>
         <td colspan="3"></td>
         <td>
-        
-        Atualização${model.negociacoes.reduce((total, n) => total + n.volume, 0.0) }
+        ${model.negociacoes.reduce((total, n) => total + n.volume, 0.0)}
         
         </td>
         </tfoot>

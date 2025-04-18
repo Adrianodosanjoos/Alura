@@ -1,4 +1,4 @@
-class Mesagem {
+class Mensagem {
 
     constructor(texto='') {
         this._texto = texto;
